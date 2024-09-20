@@ -1,0 +1,164 @@
+/*---===== General style ====--- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  border-bottom: 1xp solid #3B6784;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-weight: bold;
+}
+
+:root {
+  ---font-h2-size: 40px;
+  /* ---button-background-color:rgb(68, 146, 68); */
+  ---transition-duration: 0.5s;
+  ---border-radius-btn: 10px 0 10px 0;
+  ---btn-padding: 10px 50px;
+  /* ---border-res-radious-btn:10px; */
+  ---font-margin-bottom: 15px;
+  ---p-color: rgb(118, 114, 114);
+  ---space-margin-top: 10rem;
+
+}
+
+/* ---===== Header style =====--- */
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav img {
+  width: 150px;
+}
+
+.logo {
+  margin-right: 25rem;
+}
+
+.book-now {
+  margin-left: 25rem;
+}
+
+svg {
+  width: 20px;
+}
+
+input {
+  width: 11rem;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(255, 250, 250);
+  position: relative;
+}
+
+
+/* ---==== Hero ====--- */
+.hero-section {
+  background-color: #3B6784;
+  font-family: millik;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  width: 70%;
+  border-radius: 60% 0 0 60%;
+}
+
+.left {
+  width: 40%;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.left h2 {
+  font-size: 50px;
+  margin-bottom: var(---font-margin-bottom);
+}
+
+.left h4 {
+  font-size: 25px;
+  margin-bottom: var(---font-margin-bottom);
+}
+
+.left h5 {
+  margin: 20px 80px;
+}
+
+.left p {
+  font-size: 15px;
+  color: var(---p-color);
+  line-height: 20px;
+  margin-bottom: var(---font-margin-bottom);
+  padding-right: 20px;
+}
+
+.left h6 {
+  margin: 20px 25px;
+  font-size: 17px;
+
+}
+
+.book-now-btn {
+  border: 2px solid #fff;
+  background-color: #E90043;
+  margin: 20px 0;
+  padding: 10px 50px;
+  font-size: 20px;
+  border-radius: var(---border-radius-btn);
+}
+
+.call-num {
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 10px 10px;
+  border-radius: var(---border-radius-btn);
+
+}
+
+@font-face {
+  font-family: Millik;
+  src: url(./Millik\ Regular/);
+}
+
+/* <!-- ======About Us section====== --> */
+.about-us {
+  text-align: center;
+  background-color: rgba(59, 103, 132, 0.1);
+  height: 300px;
+  margin-top: var(---space-margin-top);
+  padding: 50px;
+}
+
+.about-us h5 {
+  margin-bottom: var(---font-margin-bottom);
+}
+
+.about-us h2 {
+  font-size: var(---font-h2-size);
+}
+
+.about-us p {
+  color: var(---p-color);
+  /* margin: 100px 0; */
+}
